@@ -30,4 +30,4 @@ Results:
 The LightGBM model demonstrated strong predictive performance, with an R² score of 0.94 showing that it captured a significant portion of the variance in Ksat values. While the MAE and MSE values suggest the model was generally accurate, the higher MSE compared to MAE signals potential sensitivity to outliers. Importantly, an analysis of model performance across different training sample sizes revealed that while larger datasets improved performance metrics (lower RMSLE and higher R²), the benefits of increasing sample size began to plateau around 60 observations. This suggests that even modestly sized, well-cleaned datasets can yield robust models, but improvements taper off as more data is added. Future work could benefit from more advanced hyperparameter tuning and targeted outlier treatment to further refine accuracy.
 ## 🗂 Files  
 - `data.xlsx`: Original multi-sheet Excel dataset  
-- `ksat_model.ipynb`: Preprocessing + modeling notebook  
+- `kSATQuest-RegressionRunoff_JASP.ipynb`: Preprocessing + modeling notebook  
